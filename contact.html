@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang= "english">
+    <head>
+        <meta charset= "utf-8">
+        <meta name= "viewport" content = "width=device-width, initial-scale=1.0">
+        <title> Personal Website</title>
+        <link rel= "stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class= "nav-bar">
+                    <a href= "http://localhost/Personal_website/index.html" class="logo"> Rachit Poudel </a>
+                    <div class= "navigation">
+                        <div class= "nav-items">
+                            <a href= "http://localhost/Personal_website/index.html">Home</a>
+                            <a href= "http://localhost/Personal_website/about me.html">About Me</a>
+                            <a href= "http://localhost/Personal_website/contact.html">Education</a>
+                            <a href= "http://localhost/Personal_website/projects.html">Projects</a>
+                            <a href= "http://localhost/Personal_website/contact.html">Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div class="service-modal flex-center">
+            <div class="container flex-center">
+            <div class="content">
+            <div class= "service-modal-body">
+                <div class= "contact-message">
+                    <p>I am always open to any discussion or inquiries.</p>
+                </div>
+                <i class= "fas fa-times modal-close-btn"></i>
+                <form action="http://localhost/Personal_website/index.php" class="contact-form" method="POST">
+                    <div class="first-row">
+                        <input type="text" placeholder="Name" name="name">
+                    </div>
+                    <div class="second-row">
+                        <input type="email" placeholder="Email" name="email">
+                        <input type="text" placeholder="Subject" name="subject">
+                    </div>
+                    <div class = "third-row">
+                        <textarea name="message" id="" rows="7" placeholder= "Message"></textarea>
+                    </div>
+                    
+                        <button class="btn" type="submit"> Send <i class="fas fa-paper-plane"></i> </button>
+                </form>
+                    <!-- <button class="btn" type="submit"> Send <i class= "fas fa-paper-plane"></i> </button> -->
+            </div>
+            </div>
+            </div>
+        </div>
+
+       <section class="contact section" id= "contact">
+            <div class="container flex-center">
+                <h1 class="section-title-04">Contacts</h1>
+                <div class= "content">
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <div class= "upper2">
+                                <h3>Email</h3>
+                                <h5>poudelrachit4@gmail.com</h5>
+                            </div>
+                        </div>
+                         <div class="contact-card">
+                            <div class= "upper2">
+                                <h3>Phone</h3>
+                                <h5>+977-9848553543 </h5>
+                            </div>
+                        </div>
+                         <div class="contact-card">
+                            <div class= "upper2">
+                                <h3>Address</h3>
+                                <h5>Bharatpur-10, chitwan</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class= "btn2"> Write A Message <i class= "fas fa-pencil"></i></a>
+                </div>
+            </div>
+        </section>
+        <script src="https://code.jquery.com/jquery-3.6.0.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+        <script src="script.js"></script>
+    
+    </body>
+</html>

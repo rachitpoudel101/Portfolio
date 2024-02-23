@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang= "en" dir="ltr">
+    <head>
+        <meta charset= "utf-8">
+        <meta name= "viewport" content = "width=device-width, initial-scale=1.0">
+        <title> Personal Website</title>
+        <link rel= "stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class= "nav-bar">
+                    <a href= "index.html" class="logo"> Rachit Poudel </a>
+                    <div class= "navigation">
+                        <div class= "nav-items">
+                            <a href= "index.html">Home</a>
+                            <a href= "about me.html">About Me</a>
+                            <a href= "education.html">Education</a>
+                            <a href= "projects.html">Projects</a>
+                            <a href= "contact.html" class="contact">Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <section class="education section" id= "education">
+            <div class="container flex-center">
+                <h1 class="section-title-03">Education</h1>
+                <div class= "content">
+                    <div class="education-info">
+                        <div class="education-card">
+                            <div class= "upper1">
+                                <h3>SEE</h3>
+                                <h5>I have Passed SEE.</h5>
+                            </div>
+                            <div class="hr1"></div>
+                                <h4><label>2019/march/15</label></h4>
+                                <p>I have Passed SEE from Narayani Public Secendary School, Scorring 2.99</p>
+                        </div>
+                         <div class="education-card">
+                            <div class= "upper1">
+                                <h3> +2 </h3>
+                                <h5> i have Passed +2 from narayani public collage.</h5>
+                            </div>
+                            <div class="hr1"></div>
+                                <h4><label>2019-2021 </label></h4>
+                                <p>i Hvae passed +2 from Computer Science stre scorring 2.72 in the final exam of the +2  .</p>
+                        </div>
+                         <div class="education-card">
+                            <div class= "upper1">
+                                <h3>Blachore</h3>
+                                <h5>Currently I am Studying in Herald Collage Kathmandu.</h5>
+                            </div>
+                            <div class="hr1"></div>
+                                <h4><label>2023-Present</label></h4>
+                                <p>Stydying in the feild of the AI and the basic progamming language like HTML, CSS, JavaScript, Python.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="script.js"></script>
+       
+        <script type="text/javascript">
+            $(window).on("scroll",function(){
+                if ($(window).scrollTop()){
+                    $('header').addClass('sticky');
+                }
+                else{
+                    $('header').removeClass('sticky');
+                }
+            });          
+        </script>
+    </body>
+</html>
